@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis`](https://www.npmjs.com/package/@aws-sdk/client-kinesis/v/3.418.0).
+[`@aws-sdk/client-kinesis`](https://www.npmjs.com/package/@aws-sdk/client-kinesis/v/3.421.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.418.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.421.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-TEtirSGf0rYsSnYK4k122O4EKU6O1QPh3EWMEsu1GKAWmn2VLCrr8S90C06MC4Ef
+sha384-68EuNPtaZGRHZMeQ2Tuf7vQAt/Bj5BdpU9da4T51vGA96NbaH7XNxuHAgVko39SF
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.418.0/index.min.mjs"
+            "@aws-sdk/client-kinesis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.421.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.418.0/index.min.mjs": "sha384-TEtirSGf0rYsSnYK4k122O4EKU6O1QPh3EWMEsu1GKAWmn2VLCrr8S90C06MC4Ef"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.421.0/index.min.mjs": "sha384-68EuNPtaZGRHZMeQ2Tuf7vQAt/Bj5BdpU9da4T51vGA96NbaH7XNxuHAgVko39SF"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.418.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.421.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.418.0/index.min.mjs": "sha384-TEtirSGf0rYsSnYK4k122O4EKU6O1QPh3EWMEsu1GKAWmn2VLCrr8S90C06MC4Ef"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis@3.421.0/index.min.mjs": "sha384-68EuNPtaZGRHZMeQ2Tuf7vQAt/Bj5BdpU9da4T51vGA96NbaH7XNxuHAgVko39SF"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.418.0`)
+* Always pin to a specific version (`@3.421.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis/blob/refs/tags/3.418.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis/blob/refs/tags/3.421.0/LICENSE
 ```
 
 ---
